@@ -1,0 +1,13 @@
+{
+  "name": "nodetask",
+  "version": "1.0.0",
+  "description": "Gerenciador de tarefas com node",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Baptista Valeta <baptistavaleta@gmail.com",
+  "license": "ISC",
+  "type": "commonjs"
+}
