@@ -3,7 +3,7 @@ module.exports =  app => {
         findAll: (params, callback) => {
             return callback([
                 {title: "Estudar Programação diariamente"},
-                {title: "Orar todos os dias"}
+                {title: "Orar todos os dias"},
             ]);
         }
     }
