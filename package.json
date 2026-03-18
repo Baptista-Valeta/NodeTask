@@ -9,5 +9,10 @@
   "keywords": [],
   "author": "Baptista Valeta <baptistavaleta@gmail.com",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
 }
