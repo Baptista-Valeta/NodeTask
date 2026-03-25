@@ -5,6 +5,6 @@ module.exports =  app => {
             app.listen(app.get("port"), () => {
                 console.log(`NodeTask Rodando na porta ${app.get("port")}`);
             });
+        })
         .catch(err => console.error(err));
-    });
 }

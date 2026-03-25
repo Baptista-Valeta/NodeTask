@@ -3,7 +3,7 @@ const config = require("./libs/config");
 let sequelize = null;
 
 
-module.exports = () => {
+module.exports = app => {
     if(!sequelize) {
         sequelize = new Sequelize(
             config.database,
@@ -12,5 +12,5 @@ module.exports = () => {
             config.params
         );
     }
-    return sequelize;
+    return app.database = sequelize;
 }
