@@ -7,8 +7,9 @@ const app = express();
 app.models = {}; // Iniciar o app.modules
 
 consign()
-    .include("src/database.js")
-    .include("src/models")
+    .include("src/libs/config.js")
+    .then("src/database.js")
+    // .include("src/models")
     .then("src/libs/middlewares.js")
     .then("src/routes")
     .then("src/libs/boot.js")
