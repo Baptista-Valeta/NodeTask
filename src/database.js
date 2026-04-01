@@ -1,5 +1,5 @@
-const fs = require("fs");
-const path = require("path");
+const fs = require("fs"); // file system - serve para ler pastas, arquivos, etc
+const path = require("path"); // para construir caminhos de arquivos de forma segura
 const { Sequelize } = require("sequelize");
 const config = require("./libs/config");
 
@@ -18,17 +18,20 @@ module.exports = app => {
         );
         database = {
             sequelize, // conexão ativa
-            Sequelize, // biblioteca
+            Sequelize, // biblioteca (contém os tipos)
             models: {} // local de armazenamento dos modelos
         };
         const dir = path.join(__dirname, 'models'); // define o caminho da pasta models
-        fs.readdirSync(dir).forEach(file => { // ler todos os ficheiros dentro da pasta models
+        fs.readdirSync(dir).forEach(file => { // ler todos os ficheiros dentro da pasta models para carregamento automático
             const modelDir = path.join(dir, file); // cria caminho completo para cada model
             // const model = sequelize.import(modelDir);
             const model = require(modelDir)(sequelize, Sequelize.DataTypes); // importar o model
             database.models[model.name] = model; // guarda o model no objecto database.model
         });
-        Object.keys(database.models).forEach(key => {
+        // console.log(fs.readdirSync(dir)); // ler os arquivos
+        // console.log(database.models); // arquivos guardados
+
+        Object.keys(database.models).forEach(key => { // associações entre os modelos
             database.models[key].associate(database.models);
         })
     }
