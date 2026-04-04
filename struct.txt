@@ -1,0 +1,16 @@
+src
+|___libs
+|   |___boot.js
+|   |___config.js
+|   |___middlewares.js
+|
+|___models
+|   |_____tasks.model.js
+|   |_____users.model.js
+|
+|___routes
+|   |_____index.js
+|   |_____tasks.js
+|
+|___database.js
+|___index.js

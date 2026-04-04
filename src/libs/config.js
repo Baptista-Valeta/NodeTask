@@ -1,4 +1,4 @@
-// Arquivo de configuração de conexão entre o sqlite3 e o sequelize
+// Arquivo de configuração de conexão entre o mySQL e o sequelize
 
 // const { underscoredIf } = require("sequelize/lib/utils");
 
