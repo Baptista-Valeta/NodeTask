@@ -6,7 +6,7 @@ const usersRoute = (app) => {
         Users.findById(req.params.id, {
             attribute: [
                 'id',
-                'email',
+                'name',
                 'email'
             ]
         })

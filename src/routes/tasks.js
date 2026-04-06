@@ -3,11 +3,6 @@ module.exports =  app => {
 
     // .route() - permite agrupar vários métodos HTTP numa mesma rota
     app.route("/tasks")
-        .all((req, res, next) => { // Serve para validação, autenticação, logs
-            //Middleware de pre-execução das rotas
-            delete req.body.id;
-            next();
-        })
         .get((req, res) => {
             // Lista tarefas
             Tasks.findAll()
@@ -25,11 +20,6 @@ module.exports =  app => {
                 });
         });
     app.route("/tasks:id")
-        .all((req, res) => {
-            // Middleware de pré-execução de rotas
-            delete req.body.id;
-            next();
-        })
         .get((req, res) => {
             // Consulta uma tarefa
             Tasks.findOne({where: req.params})
