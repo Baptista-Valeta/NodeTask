@@ -8,7 +8,7 @@ module.exports =  app => {
             Tasks.findAll()
                 .then(result => res.json(result))
                 .catch(error => {
-                    res.status(412).json({msg: error.message});
+                    res.status(500).json({msg: error.message});
                 });
         })
         .post((req, res) => {
@@ -16,10 +16,10 @@ module.exports =  app => {
             Tasks.create(req.body)
                 .then(result => res.json(result))
                 .catch(error => {
-                    console.status(412).json({msg: error.message})
+                    res.status(500).json({msg: error.message})
                 });
         });
-    app.route("/tasks:id")
+    app.route("/tasks/:id")
         .get((req, res) => {
             // Consulta uma tarefa
             Tasks.findOne({where: req.params})
@@ -27,19 +27,19 @@ module.exports =  app => {
                     if(result)
                         res.json(result);
                     else
-                        res.senStatus(404);
+                        res.sendStatus(404);
                 })
                 .catch(error =>{
-                    res.status(412).json({msg: error.message});
+                    res.status(500).json({msg: error.message});
                 })
                 
         })
         .put((req, res) => {
             // Atualiza uma tarefa
-            Tasks.update(req.body, {where: req.params})
+            Tasks.update(req.body, {where: req.params}) // where: req.params - define a condição de busca por meio dos parâmetros da url (depois /: na url)
                 .then(result => res.sendStatus(204))
                 .catch(error => {
-                    response.status(412).json({msg: error.message});
+                    res.status(500).json({msg: error.message});
                 });
         })
         .delete((req, res) => {
@@ -47,7 +47,7 @@ module.exports =  app => {
             Tasks.destroy({where: req.params})
                 .then(result => res.sendStatus(204))
                 .catch(error => {
-                    res.status(412).json({msg: error.message});
+                    res.status(500).json({msg: error.message});
                 });
         });
 };
