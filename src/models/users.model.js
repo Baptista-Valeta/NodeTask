@@ -1,3 +1,5 @@
+const bcrypt = require("bcrypt");
+
 module.exports = (sequelize, Datatype) => {
     const Users = sequelize.define("Users", {
         id: {
@@ -25,6 +27,13 @@ module.exports = (sequelize, Datatype) => {
     Users.associate = (models) => {
         Users.hasMany(models.Tasks); // Definido o relacionamento 1 : N e cria um userId na tabela Tasks 
     };
-
+    {
+        hooks: {
+            beforeCreate: user => {
+                const salt = bcrypt.genSaltSync();
+                user.password = bcrypt.hashSync(user.password, salt);
+            }
+        }
+    }
     return Users;
 }

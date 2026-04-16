@@ -11,6 +11,8 @@ module.exports = {
         storage: 'ntask.mysql', // Directório onde será guardado os dados do banco de dados
         define: {
             underscore: true // adiciona underscore no lugar dos espaços em branco
-        }
+        },
+        jwtSecret: "Nta$k_API", // mantém uma string de chave secreta
+        jwtSession: {session: false}
     }
 };
