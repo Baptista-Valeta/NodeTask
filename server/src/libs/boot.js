@@ -8,5 +8,5 @@ module.exports =  app => {
             });
         })
         .catch(err => console.error(err.message));
-    }
-}
+    };
+};
