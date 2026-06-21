@@ -6,3 +6,4 @@ const app = require("../index.js");
 global.app = app;
 global.request = supertest(app);
 global.expect = chai.expect;
+blobal.assert = chai.assert;

@@ -15,7 +15,7 @@ module.exports =  (sequelize, Datatype) => {
         },
         done: {
             type: Datatype.BOOLEAN,
-            allowNull: true,
+            allowNull: false,
             defaultValue: false // Estado inicial da task (não concluída)
         }, 
         

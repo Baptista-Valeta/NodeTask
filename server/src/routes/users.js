@@ -4,13 +4,14 @@ module.exports = app => {
     app.route("/users")
         .all(app.auth.authenticate()) // midleware de autenticação
         .get((req, res) => {
-            Users.findById(req.user.id, { // busca um único registro através do id
+            console.log(req)
+            Users.findByPk(req.user.id, { // busca um único registro através do id
                 attributes: ["id", "name", "email"] // retorna apenas os campos especificados da tabela
             }).then(result => {
                 if(result) {
                     res.json(result);
                 }else {
-                    res.sendStatus(404);
+                    res.status(404).json({message: "Usuário não encontrado"});
                 }
             }).catch(error => {
                 res.status(500).json({msg: error.message})
@@ -19,33 +20,38 @@ module.exports = app => {
     
     app.post("/users", (req, res) => {
         Users.create(req.body)
-            .then(result => res.sendStatus(200))
+            .then(result => res.status(200).json({message: result}))
             .catch(error => {
                 res.status(500).json({msg: error.message})
             });
     });
     
     // Listar um usuários
-    app.get("/users/:id", (req, res) => {
-        Users.findById(req.params.id, {
-            attribute: [
-                'id',
-                'name',
-                'email'
-            ]
-        })
-        .then(result => res.json(result))
-        .catch(error => {
-            res.status(500).json({msg: error.message})
+    app.get("/users/:id",app.auth.authenticate(), (req, res) => {
+        Users.findByPk(req.params.id)
+            .then(result => {
+                if(!result) return res.status(404).json({message: "Usuário não encontrado"});
+
+                return res.status(200).json({message: result, params: req.params});
+            })
+            .catch(error => {
+                return res.status(500).json({msg: error.message})
         });
     });
 
     // Excluir um usuário
     app.delete("/users/:id", (req, res) => {
         Users.destroy({where: {id: req.params.id}})
-            .then(result => res.sendStatus(204))
+            .then(result => { 
+                if(result) {
+                    return res.status(200).json("Usuário deletado!")
+                }
+
+                return res.status(404).json({message: "Usuário não encontrado"});
+            
+            })
             .catch(error => {
-                res.status(500).json({msg: error.message});
+                return res.status(500).json({msg: error.message});
             });
     });
 }

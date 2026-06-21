@@ -10,7 +10,7 @@ module.exports =  app => {
     // }
     app.use((req, res, next) => {
         if(req.body && typeof req.body === 'object')
-            delete req.body.id, console.log(req.body)
+            delete req.body.id
         else 
             req.body = {};
         

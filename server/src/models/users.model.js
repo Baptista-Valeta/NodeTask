@@ -21,6 +21,13 @@ module.exports = (sequelize, Datatype) => {
             validate: {
                 notEmpty: true
             }
+        },
+        password: {
+            type: Datatype.STRING,
+            allowNull: false,
+            validate: {
+                notEmpty: true
+            }
         }
     });
 
@@ -30,9 +37,9 @@ module.exports = (sequelize, Datatype) => {
     {
         // hooks são eventos automáticos
         hooks: {
-            beforeCreate: user => { // antes de salvar no banco
-                const salt = bcrypt.genSaltSync(); // gera um numero aleatório - salto
-                user.password = bcrypt.hashSync(user.password, salt); // gera um hash com a senha do usuário
+            beforeCreate: Users => { // antes de salvar no banco
+                const salt = bcrypt.genSalt(); // gera um numero aleatório - salto
+                Users.password = bcrypt.hash(Users.password, salt); // gera um hash com a senha do usuário
             }
         }
     }

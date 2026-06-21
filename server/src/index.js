@@ -3,7 +3,6 @@ dotenv.config()
 
 const express = require('express');
 const consign = require('consign');
-// const database = require("./database");
 
 const app = express();
 
@@ -18,5 +17,6 @@ consign({verbose: false})
     .then("src/routes")
     .then("src/libs/boot.js")
     .into(app);
+
 
 module.exports = app; // exportar a api

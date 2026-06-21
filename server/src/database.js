@@ -1,7 +1,7 @@
 const fs = require("fs"); // file system - serve para ler pastas, arquivos, etc
 const path = require("path"); // para construir caminhos de arquivos de forma segura
 const { Sequelize } = require("sequelize");
-const config = require("./libs/config");
+const config = require("./libs/config")();
 
 // let sequelize = null;
 let database = null;
@@ -13,7 +13,7 @@ module.exports = app => {
             config.database,
             config.username,
             config.password,
-            config.params
+            config.params,
         );
         database = {
             sequelize, // conexão ativa
