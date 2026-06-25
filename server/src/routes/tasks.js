@@ -29,7 +29,7 @@ module.exports =  app => {
             // Consulta uma tarefa
             Tasks.findOne({
                 where: {
-                    id: req.params.id,
+                    id: req.id,
                     user_id: req.user.id 
                 }
             })
@@ -69,3 +69,143 @@ module.exports =  app => {
                 });
         });
 };
+
+
+// DOCUMENTAÇÃO DO ENDPOINT [GET] /tasks
+
+/**
+ * @api [GET] /tasks Consulta de tarefas
+ * @apiGroup Tarefas
+ * @apiHeader {String} Authorization Token do usuário
+ * @apiHeaderExample {json} Header
+ *      {"Authorization": "Bear xyzh..."}
+ * @apiSuccess {Object[]} tasks Lista de tarefas
+ * @apiSuccess {Number} id Id de registro
+ * @apiSuccess {String} title Título da tarefa
+ * @apiSuccess {Boolean} done Status da tarefa 
+ * @apiSuccess {Date} updated_at Data de atualização
+ * @apiSuccess {Date} created_at Data de criação/registro
+ * @apiSuccess {Number} userId Id do usuário
+ * @apiSuccessExample {json} Sucesso
+ *      HTTP/1.1 200 OK
+ *      [{
+ *          "id": 1,
+ *          "title": "Estudar",
+ *          "done": true,
+ *          "updated_at": "2026-07-22T15:46:51.778Z",
+ *          "created_at": "2026-07-22T15:46:51.778Z,
+ *          "userId": "1"
+ *      }]
+ * @apiErrorExample {json} Erro de consulta
+ *      HTTP/1.1 412 Precondition Failed
+ */
+
+
+// DOCUMENTAÇÃO DO ENDPOINT [POST] /tasks
+
+/**
+ * @api [POST] /tasks Cria nova tarefa
+ * @apiGroup Tarefas
+ * @apiHeader {String} Authorization Token do usuário
+ * @apiHeaderExample {json} Entrada
+ *      {"Authorization": "Bear xyzh..."}
+ * @apiParam {String} title título da tarefa
+ * @apiParamExample {json} Entrada
+ *      {"title": "Estudar"}
+ * @apiSuccess {Number} id Id de registro
+ * @apiSuccess {String} title Título da tarefa
+ * @apiSuccess {Boolean} done Status da tarefa 
+ * @apiSuccess {Date} updated_at Data de atualização
+ * @apiSuccess {Date} created_at Data de criação/registro
+ * @apiSuccess {Number} userId Id do usuário
+ * @apiSuccessExample {json} Sucesso
+ *      HTTP/1.1 200 OK
+ *      {
+ *          "id": 1,
+ *          "title": "Estudar",
+ *          "done": true,
+ *          "updated_at": "2026-07-22T15:46:51.778Z",
+ *          "created_at": "2026-07-22T15:46:51.778Z,
+ *          "userId": "1"
+ *      }
+ * @apiErrorExample Erro ao criar nova tarefa
+ *      HTTP/1.1 412 Precondition Failed
+ */
+
+
+
+// DOCUMENTAÇÃO DO ENDPOINT [GET] /tasks/:id
+
+/**
+ * @api [GET] /tasks/:id Cria nova tarefa
+ * @apiGroup Tarefas
+ * @apiHeader {String} Authorization Token do usuário
+ * @apiHeaderExample {json} Entrada
+ *      {"Authorization": "Bear xyzh..."}
+ * @apiParam {Number} id Id da tarefa
+ * @apiSuccess {Number} id Id de registro
+ * @apiSuccess {String} title Título da tarefa
+ * @apiSuccess {Boolean} done Status da tarefa 
+ * @apiSuccess {Date} updated_at Data de atualização
+ * @apiSuccess {Date} created_at Data de criação/registro
+ * @apiSuccess {Number} userId Id do usuário
+ * @apiSuccessExample {json} Sucesso
+ *      HTTP/1.1 200 OK
+ *      {
+ *          "id": 1,
+ *          "title": "Estudar",
+ *          "done": true,
+ *          "updated_at": "2026-07-22T15:46:51.778Z",
+ *          "created_at": "2026-07-22T15:46:51.778Z,
+ *          "userId": "1"
+ *      }
+ * @apiErrorExample {json} Tarefa inexistente
+ *      HTTP/1.1 404 Not Foun
+ * @apiErrorExample {json} Erro de consulta
+ *      HTTP/1.1 412 Precondition Failed
+ */
+
+
+
+// DOCUMENTAÇÃO DO ENDPOINT [PUT] /tasks/:id
+
+/**
+ * @api [PUT] /tasks/:id Atualiza uma tarefa
+ * @apiGroup Tarefas
+ * @apiHeader {String} Authorization Token do usuário
+ * @apiHeaderExample {json} Entrada
+ *      {"Authorization": "Bear xyzh..."}
+ * @apiParam {id} id Id da tarefa
+ * @apiSuccess {Number} id Id de registro
+ * @apiSuccess {String} title Título da tarefa
+ * @apiSuccess {Boolean} done Status da tarefa 
+ * @apiSuccess {Date} updated_at Data de atualização
+ * @apiSuccess {Date} created_at Data de criação/registro
+ * @apiSuccess {Number} userId Id do usuário
+ * @apiSuccessExample {json} Sucesso
+ *      HTTP/1.1 200 OK
+ *      {
+ *          "title": "Treinar",
+ *          "done": false,
+ *      }
+ * @apiErrorExample {json} Sucesso
+ *      HTTP/1.1 204 No Content
+ * @apiErrorExample {json} Erro de consulta
+ *      HTTP/1.1 412 Precondition Failed
+ */
+
+
+// DOCUMENTAÇÃO DO ENDPOINT [DELETE] /tasks/:id
+
+/**
+ * @api [DELETE] /tasks/:id Exclui uma tarefa
+ * @apiGroup Tarefas
+ * @apiHeader {String} Authorization Token do usuário
+ * @apiHeaderExample {json} Header
+ *      {"Authorization": "Bear xyzh..."}
+ * @apiSuccess {Number} id Id da tarefa
+ * @apiSuccessExample {json} Sucesso
+ *      HTTP/1.1 204 Not Content
+ * @apiErrorExample {json} Erro de consulta
+ *      HTTP/1.1 412 Precondition Failed
+ */

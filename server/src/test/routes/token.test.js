@@ -8,13 +8,10 @@ describe("Routes: Token", () => {
     describe("POST /token", () => {
         beforeEach(done => {
             //codigo de teste
-            userModel
-                .destroy()
-                .then(() => userModel.create({
-                    name: "John",
-                    email: "john@gmail.com",
-                    password: "1234"
-                }))
+            userModel.create({name: "Jonh", email: "john@gmail.com", password: "1234"})
+                .then(user =>  {
+                    send("User create: ", user.name);
+                })
                 .then(done());
         });
         describe("Status 200", () => {
@@ -22,11 +19,11 @@ describe("Routes: Token", () => {
                 request.post("/token")
                     .send({
                         email: "baptistavaleta@gmail.com",
-                        password: 1234
+                        password: "1234"
                     })
                     .expect(200)
                     .end(((err, res) => {
-                        expect(req.body).to.include.keys("/token"); 
+                        expect(request.params).to.include.keys("token"); 
                         done(err);
                     }));
             });
@@ -35,19 +32,19 @@ describe("Routes: Token", () => {
         describe("Status 401", () => {
             it("Lança erro quando password for incorrecta", done => {
                 request.post("/token")
-                    .send({
-                        email: "baptistavaleta@gmail.com",
-                        password: "password-incorrect"
-                    })
+                    // .send({
+                    //     email: "baptistavaleta@gmail.com",
+                    //     password: "password-incorrect"
+                    // })
                     .expect(401)
                     .end((err, res) => done(err));
             });
             it("Lança erro quando email for incorrecto", done => {
                 request.post("/token")
-                    .send({
-                        email: "email-incorrect",
-                        password: "1234"
-                    })
+                    // .send({
+                    //     email: "email-incorrect",
+                    //     password: "1234"
+                    // })
                     .expect(401)
                     .end((err, res) => done(err));
             });

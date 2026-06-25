@@ -1,21 +1,20 @@
 
 module.exports =  app => {
+
+/**
+* @api [GET] / API STATUS
+* @apiGroup Status
+* @apiSuccess {String} status Mensagem de status da api
+* @apiSuccessExample {json} Sucesso
+*   HTTP/1.1 200 OK
+*   {"service": "NodeTask"}      
+*/
+
     app.get("/", (req, res) => {
-            const UserModel = app.database.models.Users;
 
-            const User = UserModel.findAll()
-                .then(users => {
-                    res.json({
-                        status: "online",
-                        service: "NodeTask",
-                        timestamp: `${new Date().getDate()}-${new Date().getMonth()}-${new Date().getFullYear()}`,
-                        users: users,
-
-                    });
-                 })
-                .catch(err => {
-                    res.json({error: err.message})
-                })
-            }
-    )
-}
+        res.json({
+            status: "online",
+            service: "NodeTask",
+        });
+    });
+};

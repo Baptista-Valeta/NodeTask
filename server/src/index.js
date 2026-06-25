@@ -7,7 +7,6 @@ const consign = require('consign');
 const app = express();
 
 app.models = {}; // Iniciar o app.modules
-
 consign({verbose: false})
     .include("src/libs/config.js")
     .then("src/database.js")

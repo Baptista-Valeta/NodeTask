@@ -4,8 +4,12 @@
   "description": "Gerenciador de tarefas com node",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
+    "start": "npm run apidoc && nodemon src/index.js",
+    "apidoc": "apidoc -i src/routes/ -o public/apidoc",
     "test": "NODE_ENV=test mocha src/test/**/*.js"
+  },
+  "apidoc": {
+    "name": "Documentação - nodeTask Api"
   },
   "keywords": [],
   "author": "Baptista Valeta <baptistavaleta@gmail.com>",
@@ -15,16 +19,20 @@
     "bcrypt": "^6.0.0",
     "body-parser": "^2.2.2",
     "consign": "^0.1.6",
+    "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "jwt-simple": "^0.5.6",
+    "morgan": "^1.11.0",
     "mysql2": "^3.20.0",
     "nodemon": "^3.1.14",
     "passport": "^0.7.0",
     "passport-jwt": "^4.0.1",
-    "sequelize": "^6.37.8"
+    "sequelize": "^6.37.8",
+    "winston": "^3.19.0"
   },
   "devDependencies": {
+    "apidoc": "^1.2.0",
     "chai": "^6.2.2",
     "mocha": "^11.7.6",
     "supertest": "^7.2.2"
