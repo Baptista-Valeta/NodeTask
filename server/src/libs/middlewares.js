@@ -29,7 +29,7 @@ module.exports =  app => {
         allowedHeaders: ['Content-Type', 'Authorization']
     }));
     
-    app.use(compression());
+    app.use(compression()); // compactar as requisiçoes para que fiquem mais lentas
 
     app.use(app.auth.initialize());
     
