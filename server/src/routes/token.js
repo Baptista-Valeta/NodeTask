@@ -22,7 +22,7 @@ module.exports = app => {
 
                         console.log("Usuário ",user.name,":",user.password)
                         
-                        return res.json({ // retorna token do usuário autenticado
+                        return res.status(200).json({ // retorna token do usuário autenticado
                             token: jwt.encode(payload, cfg.params.jwtSecret) // gerar token 
                         });
                     }else {

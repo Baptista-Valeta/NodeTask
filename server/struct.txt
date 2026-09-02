@@ -2,6 +2,9 @@ src
 |___libs
 |   |___boot.js
 |   |___config.js
+|   |___config.devlopment.js
+|   |___config.test.js
+|   |___logger.js
 |   |___middlewares.js
 |
 |___models

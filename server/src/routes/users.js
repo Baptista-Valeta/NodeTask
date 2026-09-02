@@ -5,9 +5,9 @@ module.exports = app => {
     app.route("/users")
         .all(app.auth.authenticate()) // midleware de autenticação
         .get((req, res) => {
-            console.log(req.user)
+            console.log(req.user.id)
             Users.findByPk(req.user.id, { // busca um único registro através do id
-                attributes: ["id", "name", "email"] // retorna apenas os campos especificados da tabela
+                // attributes: ["id", "name", "email"] // retorna apenas os campos especificados da tabela
             }).then(result => {
                 if(result) {
                     return res.json(result);

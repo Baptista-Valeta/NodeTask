@@ -6,11 +6,14 @@ module.exports =  app => {
         .all(app.auth.authenticate()) // executa autenticação para todos os métodos da dessa rota
         .get((req, res) => {
             // Lista tarefas
-            Tasks.findAll({
-                where: {user_id: req.user.id}
-            })
+            Tasks.findAll(
+                // {
+                //     where: {user_id: req.user.id}
+                // }
+        )
                 .then(result => res.json(result))  
                 .catch(error => {
+                    console.log('Erro ao buscar tasks:', error)
                     res.status(500).json({msg: error.message});
                 });
         })

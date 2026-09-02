@@ -4,6 +4,7 @@ const bodyParser = require("body-parser");
 const cors = require('cors');
 const morgan = require('morgan');
 const compression = require('compression');
+const helmet = require('helmet');
 
 const logger = require('./logger');
 
@@ -23,6 +24,8 @@ module.exports =  app => {
         }
 
     }));
+
+    app.use(helmet());
     app.use(cors({
         origin: 'http://localhos:3001',
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
