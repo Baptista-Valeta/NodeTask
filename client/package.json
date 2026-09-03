@@ -1,0 +1,25 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && npm run server",
+    "server": "http-server public -p 3001",
+    "build": "npm run browserify && npm run uglify",
+    "browserify": "browserify src -t babelify -o public/js/app.js",
+    "uglify": "uglify public/js/app.js -o public/js/app.min.js"
+  },
+  "keywords": [],
+  "author": "Baptista Valeta",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "babelify": "^10.0.0",
+    "browser-request": "^0.3.3",
+    "browserify": "^17.0.1",
+    "http-server": "^14.1.1",
+    "tiny-emitter": "^2.1.0",
+    "uglify": "^0.1.5"
+  }
+}
