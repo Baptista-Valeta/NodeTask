@@ -2,3 +2,5 @@ node_modules/
 Revision.md
 .env
 mapa-project.md
+private.key
+certificate.crt
