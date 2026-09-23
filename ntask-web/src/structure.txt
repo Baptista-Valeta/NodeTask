@@ -1,0 +1,19 @@
+src
+|___app
+|   |___public-routing
+|   |   |___login
+|   |   |___register
+|   |   
+|   |___private-routing
+|   |   |___tasks
+|   |
+|   |___core
+|   |   |___services
+|   |   |   |___tasks.service.ts
+|   |   |   |___auth.service.ts
+|   |   |
+|   |   |___interceptores
+|   |   |   |___auth-interceptor.ts
+|   |   |
+|   |   |___guards
+|   |   |   |___auth-guards.ts

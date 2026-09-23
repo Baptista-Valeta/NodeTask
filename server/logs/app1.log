@@ -1,0 +1,96 @@
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Mon Sep 21 2026 13:55:24 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Users`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Tasks' AND TABLE_SCHEMA = 'nodeTask'"}
+{"level":"info","message":"[Wed Sep 23 2026 16:07:03 GMT+0100 (Hora padrão da África Ocidental)] Executing (default): SHOW INDEX FROM `Tasks`"}
