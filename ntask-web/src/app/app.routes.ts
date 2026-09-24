@@ -3,11 +3,12 @@ import { Routes } from '@angular/router';
 import { PublicRoutingComponent } from './public-routing/public-routing.component';
 import { LoginComponent } from './public-routing/login/login.component';
 import { RegisterComponent } from './public-routing/register/register.component';
+import { TasksComponent } from './private-routing/tasks/tasks.component';
 
 export const routes: Routes = [
     {
         path: '',
-        redirectTo: 'auth',
+        redirectTo: 'tasks',
         pathMatch: 'prefix'
     },
     {
@@ -30,5 +31,10 @@ export const routes: Routes = [
                 title: 'Cadastrar'
             }
         ]
+    },
+    {
+        path: 'tasks',
+        component: TasksComponent,
+        title: 'Tasks'
     }
 ];
